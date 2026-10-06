@@ -24,7 +24,7 @@ public class Ejercicio2 {
         prendas = sc.nextInt();
         
         for (int i = 1; i <= prendas; i++) {
-            System.out.print("Ingrese el precio de la prenda " + i + ": ");
+            System.out.print("Ingrese el precio de la prenda #" + i + ": ");
             precio = sc.nextDouble();
             total = total + precio;
         }
